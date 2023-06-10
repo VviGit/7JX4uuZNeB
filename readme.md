@@ -16,7 +16,7 @@ To follow this tutorial, it is mandatory to :
 
 ## Setting up the cluster
 
-To create your fist Aiven kafka cluster using the web console, start by going to your Aiven project home page at https://console.aiven.io/
+To create your first Aiven kafka cluster using the web console, start by going to your Aiven project home page at https://console.aiven.io/
 
 ![homepage](img/homepage.png "Home Page")
 
@@ -37,7 +37,7 @@ And you can click create.
 
 > Important : once you click on create service, you will be billed based on the time the service is running. If you are following this tutorial with the free trial, you get 300$. Otherwise, **you could be billed** from now.
 
-On the next page, the console lets you download CA Certificate, Access Certificate and Access Key, you will need it to connect to your cluster.
+On the next page, the console lets you download CA Certificate, Access Certificate and Access Key, you will need them to connect to your cluster.
 
 Once you downloaded them, you can click on Next: Create Topic.
 
@@ -125,7 +125,7 @@ To start monitoring your Kafka cluster, you can browse dashboards in grafana, th
 
 ![grafana](img/grafanadash.png "Grafana")
 
-You can get [more information on Kafka cluster monitoring]((https://www.datadoghq.com/blog/monitoring-kafka-performance-metrics/)) from
+You can get [more information on Kafka cluster monitoring](https://www.datadoghq.com/blog/monitoring-kafka-performance-metrics/) from
 this article from datadog.
 
 ## Conclusion
