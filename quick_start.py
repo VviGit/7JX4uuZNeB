@@ -1,4 +1,4 @@
-import time
+from datetime import datetime
 from kafka import KafkaProducer, KafkaConsumer
 import uuid
 import json
@@ -18,7 +18,7 @@ message = {
     'transactionType': 'PAYMENT',
     'amount': 17.5,
     'status': 'VALIDATED',
-    'date': time.time()
+    'date': str(datetime.now())
 }
 
 producer.send(TOPIC_NAME, json.dumps(message).encode('utf-8'),
